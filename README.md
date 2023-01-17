@@ -110,5 +110,12 @@ sloccount path/to/your/project
 
 Isso irá produzir uma saída com a contagem de linhas de código, comentários e linhas em branco, assim como o número de arquivos e outras estatísticas.
 
+#Testes e Qualidade
+A partir do código-fonte, é possível inferir que o sistema de correção automatizada de provas foi testado utilizando testes manuais. Isso pode ser feito carregando imagens de provas com gabaritos já preenchidos e comparando as respostas identificadas pelo sistema com as respostas corretas. Isso pode ser feito comparando a saída do sistema com as respostas corretas e contando o número de acertos e erros..
 
+A teste pode ser feito utilizando diferentes tipos de imagens com gabaritos preenchidos, incluindo diferentes tipos de fontes, tamanhos e orientações, a fim de testar a robustez do sistema. Além disso, é importante testar o sistema em diferentes configurações de iluminação e com diferentes tipos de câmeras, a fim de garantir que ele funcione corretamente em vários cenários.
  
+ O código também mostra que o sistema utiliza a biblioteca OpenCV para processamento de imagens e a biblioteca pickle para carregar os dados
+
+#Ferramentas e bibliotecas
+A partir do código apresentado, pode-se ver que foram utilizadas as bibliotecas OpenCV e pickle na fase de testes. A biblioteca OpenCV é utilizada para processamento de imagens, enquanto a biblioteca pickle é utilizada para carregar os dados.
